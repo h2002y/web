@@ -1,0 +1,78 @@
+.user-component__profile--med .user-component__profile__username {
+  font-size: 20px;
+}
+
+.user-component__profile--med .user-component__profile__message {
+  font-size: 16px;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.search-icons--next-row {
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: var(--border-bottom);
+}
+
+.icons__extra span {
+  font-size: 14px;
+}
+
+.extra-suggestions {
+  padding-top: 10px;
+}
+
+.extra-suggestions__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.extra-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.extra-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extra-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--yellow);
+}
+
+.extra-suggestions__icon-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.icon-image--white img {
+  border: 3px solid var(--blue);
+}
+
+.extra-suggestions__icon-text {
+  font-size: 15px;
+  margin-top: 15px;
+  color: var(--grey);
+}
+
+.dot__archive {
+  position: relative;
+}
+
+.dot__archive .dot__notification {
+  top: 5px;
+}
